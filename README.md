@@ -51,10 +51,3 @@ The dataset includes the following fields:
 
 ## Acknowledgments
 The dataset is available from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). Special thanks to the contributors for making this dataset publicly available.
-
----
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Feel free to contribute to the project or suggest improvements by opening an issue or submitting a pull request!
