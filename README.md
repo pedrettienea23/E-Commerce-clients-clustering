@@ -15,12 +15,6 @@ Through this analysis, we aim to uncover insights into customer behavior, predic
    - Segment customers using RFM (Recency, Frequency, Monetary) analysis.
    - Define actionable customer groups and recommend tailored strategies.
 
-3. **Demand Prediction**:
-   - Predict item demand (`Quantity`) for inventory optimization.
-
-4. **Customer Behavior Modeling**:
-   - Predict customer spending (`SalesTotal`) to inform marketing and retention strategies.
-
 ---
 
 ## 📊 Dataset Description
