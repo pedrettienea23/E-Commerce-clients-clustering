@@ -3,8 +3,7 @@
 ## Project Overview
 This project involves the analysis and exploration of the **Online Retail II** dataset, which contains transactional data from a UK-based online retailer. The retailer specializes in unique all-occasion giftware and primarily serves both individual customers and wholesalers. The dataset spans transactions from **December 1, 2009, to December 9, 2011**.
 
-The goal of this project is to clean, explore, and analyze the data to uncover insights about customer behavior trough customer segmentation techniques.
-
+The goal is to analyze customer data, group clients into meaningful segments, and suggest tailored business strategies for each group. The project uses K-Means clustering for segmentation and handles outliers as a separate category.
 ---
 
 ## Dataset Description
@@ -20,20 +19,23 @@ The dataset includes the following fields:
 
 ---
 
-## Project Goals
+### Workflow
 1. **Data Cleaning**:
-   - Handle missing values in the `CustomerID` field.
-   - Remove transactions with negative `Quantity` or `UnitPrice` values.
-2. **Exploratory Data Analysis (EDA)**:
-3. **Visualization**:
-   - Create informative visualizations for insights.
-4. **Feature Engineering**:
-   - Add calculated fields like `TotalPrice` (Quantity × UnitPrice).
-5. **Customer Segmentation**:
-   - Perform **KMeans Analysis** to segment customers:
-     - **Recency**: Days since the last purchase.
-     - **Frequency**: Number of transactions.
-     - **Monetary**: Total spending.
+   - Handled missing values, errors, and inconsistencies in invoice and stock codes.
+   - Removed irrelevant records using regex and excluded rows with missing `Customer ID`.
+
+2. **Outlier Analysis**:
+   - Identified and separated high-value clients for specific analysis.
+
+3. **Clustering**:
+   - Applied K-Means clustering to non-outlier data and validated with the silhouette score.
+   - Labeled clusters: **New Shoppers**, **Re-engage**, and **Reward**.
+
+4. **Outlier Segmentation**:
+   - Grouped high-value clients manually and suggested tailored strategies.
+
+5. **Visualization**:
+   - Displayed client group distributions and key segmentation metrics.
 
 ---
 
