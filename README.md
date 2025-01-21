@@ -25,14 +25,12 @@ The dataset includes the following fields:
    - Handle missing values in the `CustomerID` field.
    - Remove transactions with negative `Quantity` or `UnitPrice` values.
 2. **Exploratory Data Analysis (EDA)**:
-   - Analyze sales trends across time.
-   - Identify top-performing products and countries.
 3. **Visualization**:
    - Create informative visualizations for insights.
 4. **Feature Engineering**:
    - Add calculated fields like `TotalPrice` (Quantity × UnitPrice).
 5. **Customer Segmentation**:
-   - Perform **RFM Analysis** to segment customers:
+   - Perform **KMeans Analysis** to segment customers:
      - **Recency**: Days since the last purchase.
      - **Frequency**: Number of transactions.
      - **Monetary**: Total spending.
